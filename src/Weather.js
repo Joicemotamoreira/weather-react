@@ -13,16 +13,5 @@ export default function Weather(props) {
 
   axios.get(apiUrl).then(handleResponse);
 
-  return (
-    <ThreeDots
-      visible={true}
-      height="40"
-      width="40"
-      color="white"
-      radius="9"
-      ariaLabel="three-dots-loading"
-      wrapperStyle={{}}
-      wrapperClass=""
-    />
-  );
+  return <ThreeDots height="50" width="50" color="orange" />;
 }
