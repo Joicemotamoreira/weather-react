@@ -59,7 +59,8 @@
   color: #eb1fe4ad;
   font-weight: bold;
   line-height: 20px;
-  font-size: 20px;
+  font-size: 16px;
+  font-family: "Poppins";
 }
 
 .Weather .weather-app-details strong {
