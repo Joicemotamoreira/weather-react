@@ -1,0 +1,18 @@
+body {
+  background: linear-gradient(179.4deg, #aa78ff 2.2%, #ffcf85 96.2%);
+  background-size: cover;
+  height: 100vh;
+  display: block;
+  overflow: hidden;
+}
+
+.poppins-light {
+  font-family: "Poppins", sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.jersey-10-regular {
+  font-family: "Jersey 10", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
