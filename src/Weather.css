@@ -154,7 +154,7 @@
     justify-content: center;
   }
   .Weather .weather-forecast {
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr;
   }
   body {
     overflow: unset;
@@ -164,6 +164,9 @@
 @media screen and (max-width: 400px) {
   .Weather .search-form {
     display: block;
+  }
+  .Weather .weather-forecast {
+    grid-template-columns: 1fr 1fr;
   }
   .Weather .search-form-button {
     margin-left: 0;
